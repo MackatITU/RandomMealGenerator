@@ -1,0 +1,40 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 2%;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 14%;
+}
+
+.navbar-inverse {
+    background-color: darkorange;
+    border-color: darkorange;
+    height: 125px;
+    position: absolute;
+}
+
+.navbar-brand {
+    color: black !important;
+}
+
+.titlestyle {
+    font-size: 35px;
+    padding-top: 13%
+    
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}

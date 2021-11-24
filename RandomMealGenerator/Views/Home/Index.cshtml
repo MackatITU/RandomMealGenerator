@@ -1,0 +1,108 @@
+﻿@model ProductModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row" style="margin-top:12%;">
+    <div class="col-md-6">
+        <h3>Title</h3>
+        <p>@ViewBag.products.meals[0].strMeal</p>
+        <h3>Category</h3>
+        <p>@ViewBag.products.meals[0].strCategory</p>
+        <h3>Area</h3>
+        <p>@ViewBag.products.meals[0].strArea</p>
+        <h3>Instructions:</h3>
+        <p>@ViewBag.products.meals[0].strInstructions</p>
+
+        <h3>Ingredients</h3>
+        <ul>
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient1.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient1</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient2.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient2</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient3.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient3</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient4.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient4</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient5.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient5</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient6.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient6</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient7.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient7</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient8.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient8</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient9.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient9</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient10.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient10</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient11.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient11</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient12.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient12</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient13.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient13</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient14.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient14</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient15.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient15</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient16.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient16</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient17.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient17</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient18.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient18</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient19.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient19</li>
+            }
+            @if (!string.IsNullOrEmpty(@ViewBag.products.meals[0].strIngredient20.ToString()))
+            {
+                <li>@ViewBag.products.meals[0].strIngredient20</li>
+            }
+
+
+
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <img src="@ViewBag.products.meals[0].strMealThumb" alt="meal">
+    </div>
+</div>
